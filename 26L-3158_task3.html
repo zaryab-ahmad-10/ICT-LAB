@@ -6,24 +6,51 @@
 <title>Hotel Reservation Form</title>
 </head>
 
-<body style=background-color:lightgrey;>
-<style=background-color:blue;>
-<table border="1" align =center>
+<body >
+<div style=background-color:lightgrey;>
+<table border="1" align ="center" style= "background-color: lightblue;">
 <caption>
-<h1 style= color:red> Continental Hotel Reservation</h1>
+<h1 style= color:red > Continental Hotel Reservation</h1>
 </caption>
   <tr>
     <th><label for="fname">Name:</label></th>
+    <th align= left>
+    <input type="text" id="fname" placeholder="Write your name" name="fname">
+    </th>
+  </tr>
+  <tr>
+    <th><label for="femail">eMail:</label></th>
+    <th align= left>
+    <input type="text" id="femail" value="info@continental.pk" name="femail">
+    </th>
+  </tr>
+  <tr>
+    <th><label for="fmob">Mobile Number:</label></th>
+    <th align= left>
+    <input type="text" id="fmob" placeholder="Enter your cell number" name="fmob">
+    </th>
+  </tr>
+  <tr>
+    <th><label for="farrtime">Arrival Time:</label></th>
+    <th align= left>
+    <input type="text" id="farrtime" placeholder="Write your name" name="farrtime">
+    </th>
+ </tr>
+  <tr>
+    <th><label for="fdep">Departure:</label></th>
     <th>
-    <input type="text" id="fname" placeholder="Write your name" name="fname"></tr>
-  <tr>
-    <td>Ali</td>
-    <td>Math</td>
-    <td>95</td>
+    <input type="text" id="fdep" name="fdep"><input type="text" id="fdep" name="fdep">
+    </th>
   </tr>
   <tr>
-    <td>Fatima</td>
-    <td>Science</td>
-    <td>90</td>
-  </tr>
+    <th><label for="froom">Room Type:</label></th>
+    <th align= left>
+    <input type="radio" name="radioselection">Single<br>
+    <input type="radio" name="radioselection">Double<br>
+    <input type="radio" name="radioselection">Presidential Suite<br>
+    </th>
+ </tr>
 </table>
+</div>
+</body>
+</html>
