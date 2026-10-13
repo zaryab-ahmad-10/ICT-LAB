@@ -4,53 +4,91 @@
 
 <head>
 <title>Hotel Reservation Form</title>
+<!Internal CSS Styling>
+<style>
+ body
+  { 
+    
+    background-color:lightgray;
+  }
+  table
+  { 
+    background-color:lightblue;
+  }
+</style>
 </head>
 
 <body >
-<div style=background-color:lightgrey;>
-<table border="1" align ="center" style= "background-color: lightblue;">
+
+<table border="1" align ="center">
 <caption>
 <h1 style= color:red > Continental Hotel Reservation</h1>
 </caption>
   <tr>
     <th><label for="fname">Name:</label></th>
-    <th align= left>
+    <td align= left>
     <input type="text" id="fname" placeholder="Write your name" name="fname">
-    </th>
+    </td>
   </tr>
   <tr>
     <th><label for="femail">eMail:</label></th>
-    <th align= left>
+    <td align= left>
     <input type="text" id="femail" value="info@continental.pk" name="femail">
-    </th>
+    </td>
   </tr>
   <tr>
     <th><label for="fmob">Mobile Number:</label></th>
-    <th align= left>
+    <td align= left>
     <input type="text" id="fmob" placeholder="Enter your cell number" name="fmob">
-    </th>
+    </td>
   </tr>
   <tr>
     <th><label for="farrtime">Arrival Time:</label></th>
-    <th align= left>
+    <td align= left>
     <input type="text" id="farrtime" placeholder="Write your name" name="farrtime">
-    </th>
+    </td>
  </tr>
   <tr>
     <th><label for="fdep">Departure:</label></th>
-    <th>
+    <td>
     <input type="text" id="fdep" name="fdep"><input type="text" id="fdep" name="fdep">
-    </th>
+    </td>
   </tr>
   <tr>
     <th><label for="froom">Room Type:</label></th>
-    <th align= left>
+    <td align= left>
     <input type="radio" name="radioselection">Single<br>
     <input type="radio" name="radioselection">Double<br>
     <input type="radio" name="radioselection">Presidential Suite<br>
-    </th>
+    </td>
  </tr>
+ <tr>
+    <th>Preferences</th>
+    <td>
+    <input type="checkbox" id="nonsmoking"> <label for="nonsmoking">Non-Smoking</label><br>
+    <input type="checkbox" id="internet"> <label for="internet">Internet</label><br>
+    <input type="checkbox" id="mattress"> <label for="mattress">Firm Mattress</label>
+    </td>
+ </tr>
+ <tr>
+    <th>Mode of Payment</th>
+    <td>
+    <input type="checkbox" id="cash"> <label for="cash">Cash</label>
+    <input type="checkbox" id="check"> <label for="check">Check</label><br>
+    <input type="checkbox" id="creccard"> <label for="creccard">Credit Card</label>
+    <select name="cards">
+    <option>Select Card</option>
+    <option>Visa</option>
+    <option>Master Card</option>
+    <option>PayPak</option>
+    </select>
+    </td>
+ </tr>
+ <tr>
+   <td colspan="2" align="center">
+     <input type="submit" value="Send Data">
+    </td>
+ </tr> 
 </table>
-</div>
 </body>
 </html>
