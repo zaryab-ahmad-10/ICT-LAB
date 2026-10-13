@@ -1,0 +1,66 @@
+body {
+background-color: lightblue;
+font-family: Arial;
+}
+#page {
+background-color: white;
+margin: 10px;
+padding: 10px;
+}
+#header {
+background-color: paleturquoise;
+color: teal;
+text-align: right;
+padding: 10px;
+margin: 5px;
+}
+#header h1 {
+font-weight: normal;
+margin: 0px;
+}
+#header h3 {
+font-weight: normal;
+margin: 0px;
+}
+#sidebar {
+float: left;
+width: 200px;
+background-color: turquoise;
+color: teal;
+border: 5px solid teal;
+margin: 5px;
+padding: 10px;
+}
+#sidebar h2 {
+font-weight: normal;
+}
+.friend {
+color: salmon;
+}
+.highlight {
+color: white;
+font-weight: bold;
+}
+#content {
+margin-left: 250px;
+}
+.entry {
+background-color: azure;
+color: indianred;
+border: 4px solid paleturquoise;
+margin: 5px;
+padding: 10px;
+font-family: Verdana;
+overflow: hidden;
+}
+.entry h2 {
+color: teal;
+font-weight: normal;
+}
+.date {
+border-bottom: 2px dashed blue;
+}
+.photo {
+float: right;
+margin: 5px;
+}
